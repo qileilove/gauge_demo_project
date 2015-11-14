@@ -10,6 +10,8 @@ public class DriverFactory {
     @BeforeSuite
     public void initializeDriver(){
         driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+
     }
 
     @AfterSuite

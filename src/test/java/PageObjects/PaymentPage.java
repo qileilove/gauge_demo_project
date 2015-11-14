@@ -7,7 +7,7 @@ import org.openqa.selenium.support.How;
 /**
  * Created by gauge on 6/8/15.
  */
-public class PaymentPage {
+public class PaymentPage extends BasePage {
 
     @FindBy(how = How.XPATH, xpath = "/html/body/section/div/section[2]/div/form/p/input")
     private WebElement reviewOrder;
